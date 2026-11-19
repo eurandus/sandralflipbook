@@ -1,0 +1,7 @@
+Put your photos in this folder.
+
+Name them to match src/data/flipbook.ts, for example:
+  sandral-01.jpg, sandral-02.jpg ... sandral-10.jpg
+
+JPG, PNG or WEBP all work. (iPhone HEIC photos need converting to JPG first.)
+You can delete this note.

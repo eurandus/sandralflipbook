@@ -1,0 +1,10 @@
+Put your videos in this folder.
+
+  sandral-memory-1.mp4          the first video (page 6)
+  sandral-memory-2.mp4          optional second video (page 8 appears automatically)
+
+Optional still images shown before a video plays:
+  sandral-memory-1-poster.jpg
+  sandral-memory-2-poster.jpg
+
+Use MP4 files under 50 MB. You can delete this note.
