@@ -32,7 +32,7 @@ export const book: BookSettings = {
   title: "A Little Book of Memories",
   recipient: "Sandral",
   sender: "Germaine",
-  description: "A little book of memories for Sandral, made with love by Germaine.",
+  description: "Snippets of Sandral, made with 𐙚⋆°｡⋆♡  by Germaine.",
   confetti: true, // set to false to turn off the confetti on the last page
 };
 
@@ -41,9 +41,9 @@ export const pages: BookPage[] = [
   {
     id: "cover",
     type: "cover",
-    title: "A Little Book of Memories",
-    subtitle: "For Sandral ♡",
-    quote: "Some people make ordinary workdays extraordinary.",
+    title: "For Sandral",
+    subtitle: "The truest woman to herself ♡",
+    quote: "You're like the coconut of the island, it's not tropical without you",
     signature: "Made with love, Germaine",
   },
 
@@ -55,11 +55,11 @@ export const pages: BookPage[] = [
     heading: "Dear Sandral,",
     paragraphs: [
       // ✏️ Replace these three paragraphs with your own letter.
-      "I wanted to give you something you could keep, so I made you a little book.",
-      "Inside are some of the moments I'm grateful for: the busy days, the quiet ones, and all the small things that felt lighter because you were there.",
-      "Take your time with it. There's a lot of love tucked in these pages.",
+      "Hewwo Sandral, I decided to give you smtg digital where you can bookmark and view anytime whenever u miss us!.",
+      "All these photos were moments I cherished and I wanted to let you know how happy I am here whenever ure around",
+      "Feel feel to walk through memory lane... and im so gonna miss u.",
     ],
-    signoff: "With lots of love, Germaine ♡",
+    signoff: "(₌ ᵕ̣̣̣̣̣ ᆽ ᵕ̣̣̣̣̣₌) Germaine ♡",
   },
 
   // ── Page 3 · Our Memories (3–4 photos) ────────────────────
@@ -70,10 +70,10 @@ export const pages: BookPage[] = [
     title: "Our Memories",
     photos: [
       // 📷 ✏️ Replace the file names and captions.
-      { src: "/photos/sandral-01.jpg", caption: "The whole gang ♡", alt: "The team gathered around a desk, celebrating with a box of treats" },
-      { src: "/photos/sandral-02.jpg", caption: "Office selfie o'clock", alt: "Two colleagues taking a happy selfie in the office" },
-      { src: "/photos/sandral-03.jpg", caption: "Team lunch ♡", alt: "The team smiling around a long lunch table" },
-      { src: "/photos/sandral-04.jpg", caption: "Us, being us", alt: "Two friends smiling in a selfie at the office" },
+      { src: "/photos/sandral-01.jpg", caption: "The whole gang ♡", alt: "Ur bday and were quite shy about it" },
+      { src: "/photos/sandral-02.jpg", caption: "Office selfie o'clock", alt: "IDK why we had this photo but look at our chin2 smell" },
+      { src: "/photos/sandral-03.jpg", caption: "Team lunch ♡", alt: "I remembered u insisted walking in KL and everyone has to be dragged by u" },
+      { src: "/photos/sandral-04.jpg", caption: "Us, being us", alt: "Purple hair era Sandral <3" },
     ],
   },
 
@@ -86,15 +86,15 @@ export const pages: BookPage[] = [
       // ✏️ Replace the text after each heading.
       {
         heading: "Things I'll always remember…",
-        text: "How you always made time to help, even on your busiest days.",
+        text: "How you are always caring for others (altho u put up a tough jiejie vibe).",
       },
       {
         heading: "Our funniest moments…",
-        text: "The conversations that started as work and somehow ended in laughter.",
+        text: "For some reason you always say me and Erina being siao zabo but u r our #1 siao zb",
       },
       {
         heading: "What makes you special…",
-        text: "You notice people. You make everyone around you feel seen.",
+        text: "You notice people and youuuu care.",
       },
     ],
   },
@@ -107,24 +107,24 @@ export const pages: BookPage[] = [
     title: "Photo Memories",
     photos: [
       // 📷 ✏️
-      { src: "/photos/sandral-05.jpg", caption: "Karaoke superstar 🎤", alt: "Striking a dramatic pose in a karaoke room" },
-      { src: "/photos/sandral-06.jpg", caption: "Self-care break ✨", alt: "Three friends wearing under-eye patches, posing for a selfie" },
-      { src: "/photos/sandral-07.jpg", caption: "We made it to the top! ⛰️", alt: "A group selfie at the Bukit Timah Summit marker after a hike" },
+      { src: "/photos/sandral-05.jpg", caption: "Karaoke superstar", alt: "Always the singing kween" },
+      { src: "/photos/sandral-06.jpg", caption: "I forgot why we have these", alt: "But look at us being ladiesssss" },
+      { src: "/photos/sandral-07.jpg", caption: "Bukit Timah!!!", alt: "This is actually my 1st time spending/talking more to u" },
     ],
-    // note: "A handwritten line can go here", // ✏️ optional
+     note: "I remembered that you lended me ur shoulder to cry on, I feel so safe. Thank you.", // ✏️ optional
   },
 
   // ── Page 6 · A Little Video Memory ────────────────────────
   {
     id: "video-1",
     type: "video",
-    title: "The Surprise",
+    title: "The Bday Girl Surprise",
     video: {
       // 🎬 Put your video at public/videos/sandral-memory-1.mp4
       src: "/videos/sandral-memory-1.mp4",
       // 📷 Optional still image shown before it plays
       poster: "/videos/sandral-memory-1-poster.jpg",
-      caption: "Sneaking up with treats ♡ Press play",
+      caption: "Sneaking up with cake ♡ Press play",
     },
   },
 
@@ -135,15 +135,15 @@ export const pages: BookPage[] = [
     title: "More Moments",
     // ✏️ A quote, a saying you two shared, or remove these lines
     quote: {
-      text: "The days were long, but they were better together.",
-      by: "Me, about us",
+      text: "Everyday with you - makes everyday worth it.",
+      by: "The Chinchin mei mei",
     },
     photos: [
       // 📷 ✏️ Up to two photos
-      { src: "/photos/sandral-08.jpg", caption: "Twinning in sage 🌿", alt: "Two friends smiling in a selfie under fairy lights at an evening party" },
-      { src: "/photos/sandral-09.jpg", caption: "Striking a pose", alt: "Two friends posing together on a wooden boardwalk" },
+      { src: "/photos/sandral-08.jpg", caption: "Us at Erina's wedding", alt: "So happy to see you here" },
+      { src: "/photos/sandral-09.jpg", caption: "Supermodel pose", alt: "Two friends posing together on a wooden boardwalk" },
     ],
-    note: "Write a little memory or reflection here.", // ✏️
+    note: "Sandral, you are reminder of what's being authentic and how ur energy brings joy to all of us.", // ✏️
   },
 
   // ── Page 8 · Another Video Memory (optional) ──────────────
@@ -151,12 +151,12 @@ export const pages: BookPage[] = [
   {
     id: "video-2",
     type: "video",
-    title: "Encore!",
+    title: "Queennnn vibe",
     hideIfMissing: true,
     video: {
       src: "/videos/sandral-memory-2.mp4", // 🎬
       poster: "/videos/sandral-memory-2-poster.jpg",
-      caption: "Karaoke queen, live 🎤",
+      caption: "Always the diva",
     },
   },
 
@@ -167,8 +167,8 @@ export const pages: BookPage[] = [
     heading: "Things won't be quite the same without you.",
     paragraphs: [
       // ✏️ Your longer personal message goes here.
-      "I'll miss our little check-ins, the way you made hard days feel manageable, and how you always found something to smile about.",
-      "Thank you for your kindness, your patience, and every time you said \"we'll figure it out\" and we did.",
+      "I'll miss all the carrots u offered, the casual cheeky comments during middle of the office.",
+      "Thank you for your kindness, your patience, and every time you show you cared.",
     ],
     signoff: "Germaine",
   },
@@ -200,8 +200,8 @@ export const pages: BookPage[] = [
   {
     id: "back-cover",
     type: "back-cover",
-    message: "Not goodbye, just see you around ♡",
-    footer: "Made with love, Germaine 🍊",
+    message: "I'll miss you soo sooooo much ♡",
+    footer: "Love you so much ♥︎",
     replayLabel: "Read it again",
   },
 ];
