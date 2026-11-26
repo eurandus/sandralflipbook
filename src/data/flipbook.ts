@@ -73,7 +73,7 @@ export const pages: BookPage[] = [
       { src: "/photos/sandral-01.jpg", caption: "The whole gang ♡", alt: "The team gathered around a desk, celebrating with a box of treats" },
       { src: "/photos/sandral-02.jpg", caption: "Office selfie o'clock", alt: "Two colleagues taking a happy selfie in the office" },
       { src: "/photos/sandral-03.jpg", caption: "Team lunch ♡", alt: "The team smiling around a long lunch table" },
-      { src: "/photos/sandral-04.jpg", caption: "Us, being us" }, // 📷 still to come
+      { src: "/photos/sandral-04.jpg", caption: "Us, being us", alt: "Two friends smiling in a selfie at the office" },
     ],
   },
 
@@ -109,7 +109,7 @@ export const pages: BookPage[] = [
       // 📷 ✏️
       { src: "/photos/sandral-05.jpg", caption: "Karaoke superstar 🎤", alt: "Striking a dramatic pose in a karaoke room" },
       { src: "/photos/sandral-06.jpg", caption: "Self-care break ✨", alt: "Three friends wearing under-eye patches, posing for a selfie" },
-      { src: "/photos/sandral-07.jpg", caption: "Never without a smile" }, // 📷 still to come
+      { src: "/photos/sandral-07.jpg", caption: "We made it to the top! ⛰️", alt: "A group selfie at the Bukit Timah Summit marker after a hike" },
     ],
     // note: "A handwritten line can go here", // ✏️ optional
   },
