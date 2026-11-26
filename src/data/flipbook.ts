@@ -70,10 +70,10 @@ export const pages: BookPage[] = [
     title: "Our Memories",
     photos: [
       // 📷 ✏️ Replace the file names and captions.
-      { src: "/photos/sandral-01.jpg", caption: "One of my favourite moments!" },
-      { src: "/photos/sandral-02.jpg", caption: "Team lunch ♡" },
-      { src: "/photos/sandral-03.jpg", caption: "That one busy Friday" },
-      { src: "/photos/sandral-04.jpg", caption: "Us, being us" },
+      { src: "/photos/sandral-01.jpg", caption: "The whole gang ♡", alt: "The team gathered around a desk, celebrating with a box of treats" },
+      { src: "/photos/sandral-02.jpg", caption: "Office selfie o'clock", alt: "Two colleagues taking a happy selfie in the office" },
+      { src: "/photos/sandral-03.jpg", caption: "Team lunch ♡", alt: "The team smiling around a long lunch table" },
+      { src: "/photos/sandral-04.jpg", caption: "Us, being us" }, // 📷 still to come
     ],
   },
 
@@ -107,9 +107,9 @@ export const pages: BookPage[] = [
     title: "Photo Memories",
     photos: [
       // 📷 ✏️
-      { src: "/photos/sandral-05.jpg", caption: "Coffee break" },
-      { src: "/photos/sandral-06.jpg", caption: "Celebrating together" },
-      { src: "/photos/sandral-07.jpg", caption: "Never without a smile" },
+      { src: "/photos/sandral-05.jpg", caption: "Karaoke superstar 🎤", alt: "Striking a dramatic pose in a karaoke room" },
+      { src: "/photos/sandral-06.jpg", caption: "Self-care break ✨", alt: "Three friends wearing under-eye patches, posing for a selfie" },
+      { src: "/photos/sandral-07.jpg", caption: "Never without a smile" }, // 📷 still to come
     ],
     // note: "A handwritten line can go here", // ✏️ optional
   },
@@ -140,8 +140,8 @@ export const pages: BookPage[] = [
     },
     photos: [
       // 📷 ✏️ Up to two photos
-      { src: "/photos/sandral-08.jpg", caption: "Desk neighbours" },
-      { src: "/photos/sandral-09.jpg", caption: "After the big launch" },
+      { src: "/photos/sandral-08.jpg", caption: "Twinning in sage 🌿", alt: "Two friends smiling in a selfie under fairy lights at an evening party" },
+      { src: "/photos/sandral-09.jpg", caption: "Striking a pose", alt: "Two friends posing together on a wooden boardwalk" },
     ],
     note: "Write a little memory or reflection here.", // ✏️
   },
@@ -179,7 +179,7 @@ export const pages: BookPage[] = [
     type: "next-chapter",
     title: "The Next Chapter",
     text: "Here's to new beginnings, unexpected adventures, and all the wonderful things waiting for you.",
-    photo: { src: "/photos/sandral-10.jpg", caption: "Onwards ♡" }, // 📷 ✏️
+    photo: { src: "/photos/sandral-10.jpg", caption: "Onwards ♡", alt: "Friends at a sunny brunch on a leafy terrace" }, // 📷 ✏️
   },
 
   // ── Page 11 · Final letter ────────────────────────────────
