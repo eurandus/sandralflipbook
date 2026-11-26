@@ -191,7 +191,7 @@ export const pages: BookPage[] = [
     paragraphs: [
       // ✏️ Your closing message.
       "I hope you know how much you've meant to all of us, and to me.",
-      "Wherever you go next, they're lucky to have you. Keep being exactly who you are.",
+      "Have fun, keep being you, keep being Sandral.",
     ],
     signoff: "Always cheering for you, Germaine",
   },
