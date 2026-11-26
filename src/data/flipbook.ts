@@ -118,13 +118,13 @@ export const pages: BookPage[] = [
   {
     id: "video-1",
     type: "video",
-    title: "A Little Video Memory",
+    title: "The Surprise",
     video: {
       // 🎬 Put your video at public/videos/sandral-memory-1.mp4
       src: "/videos/sandral-memory-1.mp4",
       // 📷 Optional still image shown before it plays
       poster: "/videos/sandral-memory-1-poster.jpg",
-      caption: "Press play ♡", // ✏️
+      caption: "Sneaking up with treats ♡ Press play",
     },
   },
 
@@ -151,12 +151,12 @@ export const pages: BookPage[] = [
   {
     id: "video-2",
     type: "video",
-    title: "Another Video Memory",
+    title: "Encore!",
     hideIfMissing: true,
     video: {
       src: "/videos/sandral-memory-2.mp4", // 🎬
       poster: "/videos/sandral-memory-2-poster.jpg",
-      caption: "One more for the road", // ✏️
+      caption: "Karaoke queen, live 🎤",
     },
   },
 
